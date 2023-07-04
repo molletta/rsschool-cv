@@ -2,6 +2,11 @@
     font-family: 'Montserrat';
     src: url("assets/fonts/static/Montserrat-Regular.ttf");
 }
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat';
 }
