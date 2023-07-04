@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
+
 html {
     scroll-behavior: smooth; 
   }
@@ -19,11 +23,10 @@ body {
     margin: 0 auto;
 }
 
-
 .container {
-
     max-width: 1360px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .header {
@@ -46,4 +49,21 @@ body {
     color: beige;
     transition: .3s;
 }
+
+.sidebar-container {
+    position: relative;
+    background-color: #FF8C00;
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+.photo_hero {
+    margin-top: 0px;
+}
+.contacts_hero {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
 
